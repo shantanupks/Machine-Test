@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="progress">
+        <mat-progress-bar mode="determinate" [value]="dataSource.length*10"></mat-progress-bar>
+    </div>
+
+    <div class="stats">
+
+        <div class="male" fxLayout="row">
+            <div class="square"></div>
+            <div>Male ({{maleCount}})</div>
+        </div>
+        <br>
+
+        <div class="female" fxLayout="row">
+            <div class="square"></div>
+            <div>Female ({{femaleCount}})</div>
+        </div>
+
+
+    </div>
+</div>
